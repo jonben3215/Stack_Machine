@@ -1,0 +1,214 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mCompilerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: simple expression 1 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: simple expression 2 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: simple expression 3 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + MultI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SubI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: simple expression 4 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + MultI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SubI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ExpI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ExpI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LogI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: LetBinding + Ident Test 1 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: LetBinding+ Ident Test 2 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: Let Binding + Ident Test 3 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(y) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(y) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + MultI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: LetBinding + Ident Test 4 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(2.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: LetBinding + Ident Test 5 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(3.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + MultI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(y) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(y) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SubI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- If-then-else-test-1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Expression: Let(x,Const(25.0),IfThenElse(Geq(Ident(x),Const(25.0)),Plus(Ident(x),Const(25.5)),Const(43.0))) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: If-then-else-test-1 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(25.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(25.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(25.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(1) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(43.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- If-then-else-test-2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: if-then-else-test2 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(24.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(y) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(y) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(45.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + LoadEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(25.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + StoreEnv(x) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(25.5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + AddI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(1) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(43.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PopEnv [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test-and-simple-1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: test-and-simple-1 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(0.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(-4.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(1) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushBoolI(false) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test-and-simple-2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: test-and-simple-2 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(0.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + DivI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(1) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushBoolI(false) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test-and-simple-3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: test-and-simple-3 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(4) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(-4.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(1) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushBoolI(false) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test-or-simple-1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: test-or-simple-1 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(2) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushBoolI(true) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(3) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(-4.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test-or-not-1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Your result for CompilerTest: test-or-not-1 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(5.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(1.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + CSkipI(2) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushBoolI(true) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + SkipI(5) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(0.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(0.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + DivI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + PushNumI(0.0) [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + GeqI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + NotI [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + ------------------------------- [0m[0m

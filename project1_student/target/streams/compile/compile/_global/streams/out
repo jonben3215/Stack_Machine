@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/benxiang/Desktop/CSCI/CSCI3155/Projects/MP1/project1_student/src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala:95:78: No implicit view available from Product with Serializable => scala.collection.GenTraversableOnce[B].[0m
+[0m[[0m[31merror[0m] [0m[0m            List(L1, List(CSkipI(2)), PushBoolI(true), SkipI(L2.length), L2).flatten[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
