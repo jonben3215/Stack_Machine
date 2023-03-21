@@ -1,5 +1,7 @@
 # Stack_Machine
 
-How to compile/run:
-sbt compile 
+cd into project1_student
+
+sbt compile
+
 sbt run
